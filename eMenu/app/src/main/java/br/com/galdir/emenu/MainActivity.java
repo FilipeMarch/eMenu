@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
+        //Cria uma lista de itens na tela principal do app
         String[] itens = {"Comidas", "Bebidas", "Sobremesas"};
 
         ListView listaDeItens = (ListView) findViewById(R.id.lista_itens);
