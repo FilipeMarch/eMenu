@@ -1,5 +1,6 @@
 package br.com.galdir.emenu;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,8 +23,12 @@ public class NovoItemActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //comportamento desejado para o botão
 
+                //texto que aparece ao clicar no botão
                 Toast.makeText(NovoItemActivity.this, "Item adicionado", Toast.LENGTH_SHORT).show();
 
+                //retorna para a tela principal
+                Intent intent = new Intent(NovoItemActivity.this, MainActivity.class);
+                startActivity(intent);
 
 
             }

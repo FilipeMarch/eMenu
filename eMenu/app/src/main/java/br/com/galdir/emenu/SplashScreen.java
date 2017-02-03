@@ -10,6 +10,7 @@ import java.util.TimerTask;
 class SplashActivity extends MainActivity
 
 {
+    //delay é o tempo de exibição da imagem inicial
     private static final long DELAY = 1000;
     private boolean scheduled = false;
     private Timer splashTimer;
