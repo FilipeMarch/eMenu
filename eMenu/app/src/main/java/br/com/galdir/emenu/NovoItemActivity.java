@@ -14,7 +14,7 @@ public class NovoItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novo_item);
 
-        //teste thiago
+        //update de volta
         //uma referência para o botão Salvar
         Button botaoSalvar = (Button) findViewById(R.id.item_salvar);
         //listener para o evento de clique nesse botão:
